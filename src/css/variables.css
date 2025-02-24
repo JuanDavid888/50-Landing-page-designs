@@ -2,10 +2,11 @@
     --color-1: #000000;
     --color-2: #FFFFFF;
     --color-3: #252525;
+    --color-4: hsl(0, 0%, 15%, 0.8)
 }
 @font-face {
-    font-family: "Metropolis-Regular";
-    src: url("../storage/fonts/Metropolis/Metropolis-Regular.otf");
+    font-family: "avenir-roman";
+    src: url("../storage/fonts/avenir-roman.ttf");
 }
 @font-face {
     font-family: "Metropolis-SemiBold";
