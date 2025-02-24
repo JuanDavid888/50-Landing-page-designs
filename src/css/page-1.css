@@ -4,3 +4,31 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: var(--color-4);
+}
+/**************** Header ****************/
+header{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding: 2px;
+}
+.h1__header{
+    /* background: blue; */
+    font-family: "Metropolis-SemiBold";
+    color: var(--color-3);
+    text-align: center;
+    line-height: 40px;
+    margin: 40px 0px 10px 0px; 
+}
+.p__header{
+    /* background: green; */
+    font-family: "Metropolis-Regular";
+    color: var(--color-3);
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+/****************************************/
