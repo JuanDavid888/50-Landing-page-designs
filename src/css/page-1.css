@@ -33,7 +33,7 @@ header{
     margin: 10px 0px 10px 0px
 }
 /****************************************/
-/**************** Main ****************/
+/**************** Main *****************/
 main{
     /* background-color: blue; */
     display: flex;
@@ -49,3 +49,23 @@ main{
     border: none;
     margin: 10px 0px 10px 0px;
 }
+/***************************************/
+/**************** Footer ***************/
+.section__images1{
+    /* background-color: pink; */
+    justify-content: center;
+    text-align: center;
+    margin: 36px 0px -3px 0px;
+}
+.section__images2{
+    /* background-color: purple; */
+    justify-content: center;
+    text-align: center;
+    margin: 16px
+}
+img{
+    width:205px;
+    height: 190px;
+    margin: 0px 6px 0px 6px;
+}
+/***************************************/
