@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: var(--color-4);
+    background-color: var(--color-2);
 }
 /**************** Header ****************/
 header{
@@ -17,18 +17,35 @@ header{
 }
 .h1__header{
     /* background: blue; */
-    font-family: "Metropolis-SemiBold";
     color: var(--color-3);
+    font-family: "Metropolis-SemiBold";
+    font-size: 38px;
     text-align: center;
-    line-height: 40px;
+    line-height: 55px;
     margin: 40px 0px 10px 0px; 
 }
 .p__header{
     /* background: green; */
-    font-family: "Metropolis-Regular";
-    color: var(--color-3);
+    color: var(--color-4);
     text-align: center;
+    font-family: "avenir-roman";
     line-height: 26px;
-    margin-bottom: 10px;
+    margin: 10px 0px 10px 0px
 }
 /****************************************/
+/**************** Main ****************/
+main{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+}
+.explore__button{
+    background: var(--color-3);
+    font-family: "avenir-roman";
+    color: var(--color-2);
+    width: 158px;
+    height: 54px;
+    border-radius: 16px;
+    border: none;
+    margin: 10px 0px 10px 0px;
+}
