@@ -27,4 +27,15 @@ h1{
     color: var(--color-4);
     margin: -100px 5px 0px 1151px;
 }
+button{
+    background-color: var(--color-3);
+    color: var(--color-2);
+    font-family: "avenir-roman";
+    font-size: 16px;
+    width: 157px;
+    height: 50px;
+    border: none;
+    border-radius: 14px;
+    margin: 32px 0px 136px 1151px;
+}
 /*********************************/
