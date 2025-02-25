@@ -4,3 +4,20 @@
     margin: 0;
     box-sizing: border-box;
 }
+/**************** Header ****************/
+header{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+}
+.h1{
+    font-family: "Metropolis-SemiBold";
+    font-size: 33px;
+    line-height: 45px;
+    margin: 70px 0px 0px 400px;
+}
+.p{
+    font-family: "avenir-roman";
+    line-height: 25px;
+    margin: 10px 0px 0px 400px;
+}
