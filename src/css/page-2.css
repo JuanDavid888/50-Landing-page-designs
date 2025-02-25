@@ -12,12 +12,38 @@ header{
 }
 .h1{
     font-family: "Metropolis-SemiBold";
-    font-size: 33px;
-    line-height: 45px;
-    margin: 70px 0px 0px 400px;
+    color: var(--color-3);
+    font-size: 50px;
+    line-height: 65px;
+    margin: 70px 0px 0px 120px;
 }
 .p{
     font-family: "avenir-roman";
-    line-height: 25px;
-    margin: 10px 0px 0px 400px;
+    color: var(--color-4);
+    font-size: 25px;
+    line-height: 35px;
+    margin: 10px 0px 0px 120px;
+}
+/***************************************/
+/**************** Main *****************/
+button{
+    background-color: var(--color-3);
+    color: var(--color-2);
+    font-family: "avenir-roman";
+    width: 157px;
+    height: 45px;
+    border: none;
+    border-radius: 16px;
+    margin: 20px 0px 0px 120px;
+}
+
+.main__images1{
+    display: flex;
+    margin: -440px 0px 0px 540px;
+    height: 340px;
+}
+.main__images2{
+    display: flex;
+    margin: -250px 0px 0px 870px;
+    height: 340px;
 }
