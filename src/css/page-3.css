@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-/************** Header **************/
+/*************** Header ***************/
 header{
     background-color: var(--color-2);
     display: flex;
@@ -14,5 +14,17 @@ h1{
     font-size: 100px;
     color: var(--color-3);
     margin: 122px 0px 0px 64px;
+}
+/***********************************/
+/*************** Main**************/
+.section__main{
+    background-color: var(--color-2);
+    display: flex;
+}
+.section__main p{
+    font-family: "avenir-roman";
+    font-size: 30px;
+    color: var(--color-4);
+    margin: -100px 5px 0px 1151px;
 }
 /*********************************/
