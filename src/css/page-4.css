@@ -30,3 +30,17 @@ header{
     line-height: auto;
     color: var(--color-4);
 }
+.div__header button{
+    background-color: var(--color-3);
+    margin-top: 32px;
+    border: none;
+    width: 158px;
+    height: 54px;
+    border-radius: 16px;
+}
+.div__header button a{
+    color: var(--color-2);
+    text-decoration: none;
+    font-family: "avenir-roman";
+    font-size: 18px;
+}
