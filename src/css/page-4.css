@@ -12,7 +12,6 @@ header{
     padding: 4.3% 6.6%
 }
 .div__header{
-    background-color: red;
     width: 31.5%;
     display: flex;
     flex-direction: column;
@@ -44,12 +43,49 @@ header{
     font-family: "avenir-roman";
     font-size: 18px;
 }
-/******************************/
+/*****************************/
 /*********** Main ***********/
 main{
     display: flex;
+    padding: 0px 112px;
+    justify-content: end;
 }
-main img{
-    width: 57%;
-    margin-top: -508px;
+.div__text{
+    width: 31.5%;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
 }
+.div__text span{
+    font-family: "Metropolis-SemiBold";
+    font-size: 32px;
+    line-height: auto;
+    color: var(--color-6);
+}
+.div__span1{
+    margin-top: 7px;
+}
+.div__text p{
+    font-family: "avenir-roman";
+    font-size: 24px;
+    line-height: auto;
+    color: var(--color-6);
+    margin-top: 6px;
+}
+.div__span2{
+    margin-top: 50px;
+}
+/****************************/
+/********** Footer **********/
+footer{
+    display: flex;
+    align-items: center;
+    padding: 0px 112px;
+}
+img{
+    width: 44.5%;
+    height: 932;
+    margin-top: -853px;
+}
+/****************************/
