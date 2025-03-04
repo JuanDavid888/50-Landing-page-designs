@@ -9,11 +9,11 @@ header{
     display: flex;
     flex-direction: column;
     align-items: end;
-    padding: 80px 122px;
+    padding: 4.3% 6.6%
 }
 .div__header{
-    width: 500px;
-    height: 415px;
+    background-color: red;
+    width: 31.5%;
     display: flex;
     flex-direction: column;
 }
@@ -43,4 +43,13 @@ header{
     text-decoration: none;
     font-family: "avenir-roman";
     font-size: 18px;
+}
+/******************************/
+/*********** Main ***********/
+main{
+    display: flex;
+}
+main img{
+    width: 57%;
+    margin-top: -508px;
 }
