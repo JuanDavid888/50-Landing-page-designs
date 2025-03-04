@@ -4,10 +4,11 @@
     --color-3: #252525;
     --color-4: hsla(0, 0%, 15%, 0.8);
     --color-5: hsla(0, 0%, 15%, 0.25);
+    --color-6: hsla(0, 0%, 15%, 0.55);
 }
 @font-face {
     font-family: "Metropolis-SemiBold";
-    src: url("../storage/fonts/Metropolis/Metropolis-SemiBold.otf");
+    src: url("../storage/fonts/metropolis/Metropolis-SemiBold.otf");
 }
 @font-face {
     font-family: "avenir-roman";
