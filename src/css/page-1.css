@@ -1,0 +1,71 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--color-2);
+}
+/**************** Header ****************/
+header{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding: 2px;
+}
+.h1__header{
+    /* background: blue; */
+    color: var(--color-3);
+    font-family: "Metropolis-SemiBold";
+    font-size: 38px;
+    text-align: center;
+    line-height: 55px;
+    margin: 40px 0px 10px 0px; 
+}
+.p__header{
+    /* background: green; */
+    color: var(--color-4);
+    text-align: center;
+    font-family: "avenir-roman";
+    line-height: 26px;
+    margin: 10px 0px 10px 0px
+}
+/****************************************/
+/**************** Main *****************/
+main{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+}
+.explore__button{
+    background: var(--color-3);
+    font-family: "avenir-roman";
+    color: var(--color-2);
+    width: 158px;
+    height: 54px;
+    border-radius: 16px;
+    border: none;
+    margin: 10px 0px 10px 0px;
+}
+/***************************************/
+/**************** Footer ***************/
+.section__images1{
+    /* background-color: pink; */
+    justify-content: center;
+    text-align: center;
+    margin: 36px 0px -3px 0px;
+}
+.section__images2{
+    /* background-color: purple; */
+    justify-content: center;
+    text-align: center;
+    margin: 16px
+}
+img{
+    width:205px;
+    height: 190px;
+    margin: 0px 6px 0px 6px;
+}
+/***************************************/
