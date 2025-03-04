@@ -4,3 +4,29 @@
     margin: 0;
     box-sizing: border-box;
 }
+/*********** Header ***********/
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 80px 122px;
+}
+.div__header{
+    width: 500px;
+    height: 415px;
+    display: flex;
+    flex-direction: column;
+}
+.div__header h1{
+    font-family: "Metropolis-SemiBold";
+    font-size: 64px;
+    line-height: 80px;
+    color: var(--color-3);
+}
+.div__header p{
+    margin-top: 32px;
+    font-family: "avenir-roman";
+    font-size: 26px;
+    line-height: auto;
+    color: var(--color-4);
+}
