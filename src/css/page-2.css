@@ -1,0 +1,79 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/**************** Header ****************/
+header{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+}
+.h1{
+    font-family: "Metropolis-SemiBold";
+    color: var(--color-3);
+    font-size: 30px;
+    line-height: 50px;
+    margin: 150px 0px 0px 500px;
+}
+.p{
+    font-family: "avenir-roman";
+    color: var(--color-4);
+    font-size: 15px;
+    line-height: 25px;
+    margin: 5px 0px 0px 500px;
+}
+/***************************************/
+/**************** Main *****************/
+button{
+    background-color: var(--color-3);
+    color: var(--color-2);
+    font-family: "avenir-roman";
+    font-size: 12px;
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 13px;
+    margin: 15px 0px 0px 500px;
+}
+
+.main__images1{
+    display: flex;
+    margin: -330px 0px 0px 770px;
+    height: 290px;
+}
+.main__images2{
+    display: flex;
+    margin: -215px 0px 0px 1050px;
+    height: 290px;
+}
+/***************************************/
+/*************** Footer ***************/
+.footer__images{
+    display: flex;
+    margin: 100px 0px 0px 500px;
+}
+footer img{
+    height: 220px;
+    margin: 0px 40px 0px 0px;
+}
+.footer__span1{
+    font-family: "avenir-roman";
+    color: var(--color-5);
+    font-size: 20px;
+    margin: -250px 0px 0px 500px;
+}
+.footer__span2{
+    font-family: "avenir-roman";
+    color: var(--color-5);
+    font-size: 20px;
+    margin: -20px 0px 0px 778px;
+}
+.footer__span3{
+    font-family: "avenir-roman";
+    color: var(--color-5);
+    font-size: 20px;
+    margin: -20px 0px 0px 1055px;
+}
+/***************************************/
