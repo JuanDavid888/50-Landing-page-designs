@@ -4,3 +4,20 @@
     margin: 0;
     box-sizing: border-box;
 }
+/************* Header *************/
+header{
+    display: flex;
+    justify-content: start;
+    padding: 64px;
+}
+.div__header{
+    display: flex;
+    width: 920px;
+}
+.div__header h1{
+    font-family: "Metropolis-SemiBold";
+    font-size: 72px;
+    line-height: 88px;
+    color: var(--color-3);
+}
+/*********************************/
