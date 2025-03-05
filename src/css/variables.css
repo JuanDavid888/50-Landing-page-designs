@@ -5,6 +5,9 @@
     --color-4: hsla(0, 0%, 15%, 0.8);
     --color-5: hsla(0, 0%, 15%, 0.25);
     --color-6: hsla(0, 0%, 15%, 0.55);
+    --color-7: hsla(0, 0%, 15%, 0.35);
+    --color-shadow-1: hsla(0, 0%, 0%, 0.49);
+    --color-shadow-2: hsla(0, 0%, 0%, 0);
 }
 @font-face {
     font-family: "Metropolis-SemiBold";
