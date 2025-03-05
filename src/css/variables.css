@@ -29,3 +29,23 @@
     font-family: "Poppins-SemiBold";
     src: url("../storage/fonts/Poppins/Poppins-SemiBold.ttf");
 }
+@font-face {
+    font-family: "WorkSans-Bold";
+    src: url("../storage/fonts/Work_Sans/static/WorkSans-Bold.ttf");
+}
+@font-face {
+    font-family: "WorkSans-Light";
+    src: url("../storage/fonts/Work_Sans/static/WorkSans-Light.ttf");
+}
+@font-face {
+    font-family: "WorkSans-Medium";
+    src: url("../storage/fonts/Work_Sans/static/WorkSans-Medium.ttf");
+}
+@font-face {
+    font-family: "Metropolis-SemiBold";
+    src: url("../storage/fonts/Metropolis/Metropolis-SemiBold.otf");
+}
+@font-face {
+    font-family: "avenir-roman";
+    src: url("../storage/fonts/avenir-roman.ttf");
+}
