@@ -34,13 +34,13 @@ header{
 .div__header button{
     background: var(--color-10);
     border: none;
-    border-radius: 36px;
-    width: 240px;
-    height: 70px;
+    border-radius: 40px;
+    width: 250px;
+    height: 80px;
 }
 .div__header button a{
     font-family: "Poppins-Regular";
-    font-size: 24px;
+    font-size: 28px;
     color: var(--color-2);
     text-decoration: none;
 }
@@ -60,7 +60,7 @@ footer{
     width: 40%;
 }
 .div__footer{
-    background: linear-gradient(200deg, var(--color-2) 0%, var(--color-shadow-7) 100%);
+    background: linear-gradient(100deg, var(--color-2) 0%, var(--color-shadow-7) 0%);
     display: flex;
     position: absolute;
     flex-direction: row;
