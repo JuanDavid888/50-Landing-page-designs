@@ -17,8 +17,7 @@ header{
     display: flex;
     position: absolute;
     flex-direction: column;
-    width: 756px;
-    height: 310px;
+    width: 50%
 }
 .div__header h1{
     font-family: "Poppins-Bold";
@@ -31,5 +30,23 @@ header{
     font-size: 24px;
     color: var(--color-10);
     margin-bottom: 18px;
+}
+.div__header button{
+    background: var(--color-10);
+    border: none;
+    border-radius: 36px;
+    width: 182px;
+    height: 66px;
+}
+.div__header button a{
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-2);
+    text-decoration: none;
+}
+.img__header{
+    margin-top: -64px;
+    margin-left: 492px;
+    width: 40%
 }
 /*****************************/
