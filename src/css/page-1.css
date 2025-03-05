@@ -41,13 +41,16 @@ main{
 }
 .explore__button{
     background: var(--color-3);
-    font-family: "avenir-roman";
-    color: var(--color-2);
     width: 120px;
     height: 40px;
     border-radius: 14px;
     border: none;
     margin: 10px 0px 10px 0px;
+}
+.explore__button a{
+    font-family: "avenir-roman";
+    color: var(--color-2);
+    text-decoration: none;
 }
 /***************************************/
 /**************** Footer ***************/

@@ -28,16 +28,18 @@ header{
 /**************** Main *****************/
 button{
     background-color: var(--color-3);
-    color: var(--color-2);
-    font-family: "avenir-roman";
-    font-size: 12px;
-    width: 100px;
-    height: 35px;
+    width: 95px;
+    height: 32px;
     border: none;
-    border-radius: 13px;
+    border-radius: 12px;
     margin: 15px 0px 0px 500px;
 }
-
+button a{
+    color: var(--color-2);
+    font-family: "avenir-roman";
+    font-size: 11px;
+    text-decoration: none;
+}
 .main__images1{
     display: flex;
     margin: -330px 0px 0px 770px;
