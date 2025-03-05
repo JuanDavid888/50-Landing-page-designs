@@ -21,13 +21,13 @@ header{
 }
 .div__header h1{
     font-family: "Poppins-Bold";
-    font-size: 80px;
-    color: var(--color-1);
+    font-size: 117px;
+    color: var(--color-10);
     margin-bottom: 18px;
 }
 .div__header p{
     font-family: "Poppins-Regular";
-    font-size: 24px;
+    font-size: 32px;
     color: var(--color-10);
     margin-bottom: 18px;
 }
@@ -35,8 +35,8 @@ header{
     background: var(--color-10);
     border: none;
     border-radius: 36px;
-    width: 182px;
-    height: 66px;
+    width: 240px;
+    height: 70px;
 }
 .div__header button a{
     font-family: "Poppins-Regular";
@@ -46,7 +46,28 @@ header{
 }
 .img__header{
     margin-top: -64px;
-    margin-left: 492px;
-    width: 40%
+    margin-left: 720px;
+    width: 55%
+}
+/*****************************/
+/*********** Footer ***********/
+footer{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 64px 0px 64px ;
+}
+.img__footer{
+    width: 40%;
+}
+.div__footer{
+    background: linear-gradient(200deg, var(--color-2) 0%, var(--color-shadow-7) 100%);
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    width: 1105px;
+    height: 310px;
+    border-radius: 144px;
+    margin-top: 230px;
+    margin-left: 600px;
 }
 /*****************************/
