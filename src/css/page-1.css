@@ -43,9 +43,9 @@ main{
     background: var(--color-3);
     font-family: "avenir-roman";
     color: var(--color-2);
-    width: 158px;
-    height: 54px;
-    border-radius: 16px;
+    width: 120px;
+    height: 40px;
+    border-radius: 14px;
     border: none;
     margin: 10px 0px 10px 0px;
 }
