@@ -1,0 +1,59 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(100deg, var(--color-shadow-4) 0%, var(--color-shadow-3) 100%);
+}
+/************* Main *************/
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 64px 0px 64px;
+}
+.div__main1{
+    display: flex;
+    width: 38%;
+}
+.div__main1 img{
+    margin-bottom: 90px;
+    width: 110%;
+    height: 100%;
+}
+.div__main2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding:  90px 130px;
+}
+.div__main2 h1{
+    font-family: "WorkSans-Bold";
+    font-size: 88px;
+    line-height: 104px;
+    color: var(--color-2);
+    margin-bottom: 32px;
+}
+.div__main2 p{
+    font-family: "WorkSans-Light";
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--color-2);
+    margin: 40px 0px 40px 0px;
+}
+.div__main2 button{
+    background-color: var(--color-8);
+    width: 231px;
+    height: 82px;
+    border: none;
+    border-radius: 38px;
+}
+.div__main2 button a{
+    font-family: "WorkSans-Medium";
+    font-size: 32px;
+    line-height: 18px;
+    color: var(--color-9);
+    text-decoration: none;
+}
+/*********************************/
