@@ -21,3 +21,30 @@ header{
     color: var(--color-3);
 }
 /*********************************/
+/************* Main *************/
+main{
+    display: flex;
+    justify-content: start;
+    padding: 64px;
+}
+.div__box{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    width: 316px;
+}
+.div__main span{
+    font-family: "Metropolis-SemiBold";
+    font-size: 40px;
+    font-weight: bold;
+    line-height: auto;
+    color: var(--color-7);
+}
+.div__main p{
+    font-family: "avenir-roman";
+    font-size: 24px;
+    line-height: auto;
+    margin-top: 12px;
+    color: var(--color-4);
+}
+/*********************************/
